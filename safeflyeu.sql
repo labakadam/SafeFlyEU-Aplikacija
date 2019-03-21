@@ -1,6 +1,6 @@
 drop database if exists safeFlyEU;
 create database safeFlyEU character set utf8 collate utf8_general_ci;
-# mysql -uedunova -pedunova --default_character_set=utf8 < c:\users\labak\documents\adam\safeflyeu\safeflyeu.sql
+# mysql -uedunova -pedunova --default_character_set=utf8 < c:\users\labak\documents\application\safeflyeu\safeflyeu.sql
 use safeFlyEU;
 create table airlineCompany(
 				id 					int not null primary key auto_increment,
